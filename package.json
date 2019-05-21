@@ -7,6 +7,7 @@
   "scripts": {
     "start": "NODE_ENV=develop webpack-dev-server -d",
     "svg": "vsvg -s ./src/demo/svg -t ./src/demo/icons",
+    "prepare": "npm run build",
     "build": "webpack"
   },
   "repository": {
